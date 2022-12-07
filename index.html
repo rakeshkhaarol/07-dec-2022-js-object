@@ -10,12 +10,48 @@
 
         </style>
         <script>
+          var news4={
+            w1:'The',
+            w2:"quarter-final",
+            w3:`matches`,
+            w4:'will',
+            w5:`be`,
+            w6:'played',
+            w7:'between',
+            w8:"December",
+            w9:9,
+            w10:"and",
+            w11:11,
+            w12:'with',
+            w13:`matches`,
+            w14:"-8:30",
+            w15:'PM',
+            w16:'IST',
+            w17:`and`,
+            w18:12,
+            w19:":",
+            w20:30,
+            w21:"AM",
+            w22:'IST.'
+          }
+
+          /*
+            multiline comments...
+
+           The quarter-final matches will be played between December 9 and 11 with 
+            matches  -8:30 PM IST and 12:30 AM IST.
+          */
+
+        //js code see 4 ways--
+          document.write(+news4['w1']+' '+news4["w2"]+' '+news4["w3"]+' '+news4["w4"]+' '+news4["w5"]+' '+news4["w6"]+' '+news4["w7"]+' '+news4["w8"]+' '+news4["w9"])
 
         </script>
     </head>
     <body>
 
         <h1>js data type</h1>
+
+        <h1 class="new3"></h1>
 
 
 
@@ -99,7 +135,7 @@
           
         </script>
         <script>
-            //i can see js code in 4 ways 
+            //i can see js code in 4 ways first is console.log 
 
             //'+' this symbol is a concetinetin operator
 
@@ -111,5 +147,44 @@
             //objectName[expression];
             console.log(news1.w1+' '+news1['w2']+" "+news1[r3]+' '+news1.w4+' '+news1[`w5`]+" "+news1[r6]+' '+news1.w7+" "+news1[`w8`]+' '+news1[r9]+' '+news1.w10+' ' +news1['w11']+` `+news1[r12]+` `+news1.w13+" "+news1[`w14`]+" "+news1[`w15`]+" "+news1[`w16`]+" "+news1[`w17`]+" "+news1[`w18`]+" "+news1[`w19`]+" "+news1[`w20`]+" "+news1[r21]+" "+news1[r22]+" "+news1[r23]+" "+news1[r24]+" "+news1[r25]+" "+news1[r26]+" "+news1[r27]+" "+news1[r28]+' '+news1[r29]+' '+news1[r30]+' '+news1[r31]+' '+news1[r32]+' '+news1[r33]+` `+news1.w34+` `+news1.w35+` `+news1.w36+` `+news1.w37+` `+news1.w38+` `+news1.w39+` `+news1.w40)
         </script>
+
+
+        <script>
+              let news3 ={
+                //1. proparty:velue
+
+                w1:16, //number data type
+                w2:'dead,',//string data type
+                w3:"including", //string data type
+                w4:`soldiers,`,//string data type
+                w5:"in",//string data type
+                w6:'Donetsk',//string data type
+                w7:'road',//string data type
+                w8:"accident:",//string data type
+                w9:`Russian`,//string data type
+                w10:'-proxy',//string data type
+                w11:"official"//string data type
+
+                //2.
+            }
+
+            /*
+             16 dead, including soldiers, in Donetsk road accident: Russian-proxy official
+            */
+
+
+           //js outpute see third ways..
+           //element.inner.html
+
+
+           const t3 = "w3";
+           let t6 = 'w6';
+           var t9 = `w9`;
+             
+           let y = document.querySelector('.new3')
+
+           y.innerHTML = news3.w1+'("sixteen" )'+news3['w2']+' '+news3[t3]+' '+news3.w4+" "+news3["w5"]+ ` `+news3[t6]+` `+news3.w7+ ' '+news3["w8"]+' '+news3[t9]+' '+news3.w10+" "+news3[`w11`];
+        </script>
+
     </body>
 </html>

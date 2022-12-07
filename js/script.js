@@ -32,16 +32,8 @@ const news2 ={
         w27:"aim",
         w28:`to`,
         w29:"enable",
-        w30:'all',
-        w31:`the`,
-        w32:"government",
-        w33:'departments',
-        w34:"to",
-        w35:"see",
-        w36:'their',
-        w37:`pending`,
-        w38:'cases.'
-
+        w30:'all.',
+       
     //2.
     /*
      Chief Justice DY Chandrachud on Wednesday announced the launch of the android version 
@@ -70,4 +62,4 @@ let p19 ="w19"
 
 //objectName[expression];
 
-window.alert(news2.w1+' '+news2["w2"]+" "+news2[p]+` `+news2[p1]+' '+news2['w5']+' '+news2['w6']+' '+news2[`w7`]+' '+news2.w8+' '+news2.w9+' '+news2.w10+" "+news2[p11]+" "+news2[p12]+" "+news2[p13]+" "+news2[p14]+" "+news2[p15]+" "+news2[p16]+" "+news2[p17]+" "+news2[p18]+" "+news2[p19])
+window.alert(news2.w1+' '+news2["w2"]+" "+news2[p]+` `+news2[p1]+' '+news2['w5']+' '+news2['w6']+' '+news2[`w7`]+' '+news2.w8+' '+news2.w9+' '+news2.w10+" "+news2[p11]+" "+news2[p12]+" "+news2[p13]+" "+news2[p14]+" "+news2[p15]+" "+news2[p16]+" "+news2[p17]+" "+news2[p18]+" "+news2[p19]+' '+news2["w20"]+` `+news2['w21']+` `+news2['w22']+` `+news2['w23']+` `+news2['w24']+` `+news2['w25']+` `+news2['w26']+` `+news2['w27']+` `+news2['w28']+' ' +news2.w29+ ' '+news2.w30)
